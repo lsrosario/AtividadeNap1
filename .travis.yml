@@ -1,0 +1,11 @@
+language: python
+
+python:
+  - "3.9"
+
+script:
+  - pytest teste.py
+
+notifications:
+  email: lusouzarosario@gmail.com, ufrapl21@gmail.com
+  
